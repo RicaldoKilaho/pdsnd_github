@@ -214,6 +214,7 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
+    # this is calculated by the sum() function.
     total_travel_time = df['Trip Duration'].sum()
     print("Total travel time: {} seconds".format(total_travel_time))
 
