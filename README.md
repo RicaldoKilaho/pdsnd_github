@@ -17,4 +17,5 @@ washington.csv
 
 ### Credits
 I got help from ChatGPT especially with debugging.
+I also used Udacity GPT to help me out along the way.
 
