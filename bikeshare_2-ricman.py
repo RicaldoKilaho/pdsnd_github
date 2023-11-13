@@ -28,7 +28,8 @@ def get_filters():
         print("\n Which City Do You Want to Explore?")
         print("\n  1. chicago 2. washington 3. new york city")
         print("\n City Name is NOT case sensitive")
-        # taking user input and enforcing it to lower caps 
+        # taking user input and enforcing it to lower caps
+        # this is because our file names are all in small caps
         city = input().lower()
 
         if city not in CITY_DATA.keys():
